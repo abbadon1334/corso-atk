@@ -1,0 +1,25 @@
+{
+    "name": "abbadon1334/corso-atk",
+    "description": "ATK course playground",
+    "type": "project",
+    "license": "MIT",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Francesco Danti",
+            "homepage": "https://francescodanti.com/"
+        }
+    ],
+    "require": {
+        "atk4/ui": "^4.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.9.2",
+        "friendsofphp/php-cs-fixer": "^v3.13.0"
+    },
+    "scripts" : {
+        "serve" : "php -S 127.0.0.1:8080 -t playground",
+        "fix": "php-cs-fixer fix",
+        "stan": "phpstan analyse"
+    }
+}
